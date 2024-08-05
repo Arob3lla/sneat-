@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #f1f0ff 0%,
+    #f1f0ff 70%,
+    #dadbf1 70%,
+    #dadbf1 100%
+  );
+  overflow: hidden;
+}
+.navbar {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.1);
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  margin-inline-start: 6rem;
+  line-height: 20px;
+  margin-block-start: -50px;
+}
+.main-heading h1 {
+  font-size: 4rem;
+  color: #6a6cf6;
+  position: relative;
+}
+
+.main-heading h1::before {
+  width: 100%;
+  content: "Welcome to Sneat";
+  position: absolute;
+  color: #fff;
+  z-index: -1;
+  top: -3px;
+  -webkit-text-stroke: 1px #6a6cf6;
+  left: -3px;
+}
+.sub-heading h2 {
+  font-size: 2.2rem;
+  position: relative;
+  color: #6a6cf6;
+}
+
+.sub-heading h2::before {
+  width: 100%;
+  content: "Your Ultimate Sneaker Destination";
+  position: absolute;
+  color: #fff;
+  z-index: -1;
+  top: -1px;
+  -webkit-text-stroke: 1px #6a6cf6;
+  left: -1px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+}
+
+.sign-in-form {
+  margin-inline-end: 6rem;
+  background-color: #fff;
+  height: 70vh;
+  width: 60vh;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 2% 4%;
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.1);
+}
+.sign-in-form-two {
+  margin-inline-end: 6rem;
+  background-color: #fff;
+  height: 80vh;
+  width: 60vh;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 2% 4%;
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.1);
+}
+.top-section {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.image {
+  background-image: url("/src/img/up-arrow.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  height: 30px;
+  width: 30px;
+}
+.top-section h1 {
+  color: #777e8b;
+  font-size: 1.2rem;
+}
+.mid-section {
+  padding-top: 4%;
+}
+.line {
+  line-height: 6px;
+}
+.mid-section h3 {
+  color: #777e8b;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.mid-section p {
+  color: #777e8b;
+  font-size: 0.6rem;
+}
+.form {
+  padding-top: 3%;
+}
+label {
+  color: #777e8b;
+  font-size: 0.6rem;
+  font-weight: 500;
+  /* width: 100%; */
+}
+.space-btw {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.space-btw a {
+  color: #6a6cf6;
+  font-size: 0.6rem;
+  text-decoration: none;
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #777e8b;
+  height: 30px;
+  border-radius: 3px;
+  padding: 0 5%;
+  font-size: 0.7rem;
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+
+button {
+  width: 100%;
+  background-color: #6a6cf6;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  height: 27px;
+  font-size: 0.7rem;
+}
+
+.center p {
+  text-align: center;
+}
+.center a {
+  text-decoration: none;
+  color: #6a6cf6;
+  margin-left: 4px;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9px;
+}
+.one p {
+  color: #777e8b;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+span {
+  background-color: #a8adb5;
+  width: 100%;
+  height: 1px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+i {
+  font-size: 1rem;
+  width: 30px;
+  height: 15px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3% 0;
+}
+
+.bxl-google-plus {
+  color: #ba8d85;
+  background-color: #f9e1e9;
+}
+
+.bxl-facebook {
+  background-color: #e5e6ef;
+  color: #5e5d8b;
+}
+
+.bxl-twitter {
+  background-color: #e4f4fd;
+  color: #56a0e2;
+}
